@@ -7,11 +7,11 @@ Skinning your minecraft character is super simple. All you need to do is create 
 
 Ok I'm lying, but its almost that easy. Minecraft will look at the image you create and use certain parts for the separate surfaces of your character. Lets look at how the image is laid out.
 
-![Basic Skin Layout](/images/minecraftskintemplate.png)
+![Basic Skin Layout](/images/minecraft/minecraftskin.png)
 
 As you can see the layout is super simple. Lets also take a look at the basic skin for minecraft.
 
-![Basic Minecraft Skin x5](/images/char.png)
+![Basic Minecraft](/images/minecraftchar.png)
 
 This skin is blown up five times its original size so you don't have to squint. If we compare the layout with the base skin we can start to get an idea for how many pixels we have for each piece of the skin. The long, slender pieces such as the legs and arms are 4px by 12px, the large squares are 8px by 8px, the smaller are 4px by 4px. With that you should be able to extrapolate the other few odd sized pieces. 
 
@@ -25,6 +25,6 @@ Update: A fellow Redditor created a tutorial on skinning your character using <a
 
 Update 2: It turns out that you can also skin hear gear with the same image. Below is the layout for those of you that also what to include head gear in your new skin. 
 
-![Skin Layout With Head Gear](/images/minecraftskintemplatewithhat.png)
+![Skin Layout With Head Gear](/images/minecraft/mineskinskinwithhelm.png)
 
 Now who is going to be the first to create a Darth Vader skin with the helmet? 
