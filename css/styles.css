@@ -181,6 +181,15 @@ a {
     -moz-border-radius: 7px;
 }
 
+.boastful a {
+    color: #BBB;
+    text-decoration: none;
+}
+
+.boastful a {
+    color: #F0B;
+}
+
 .boastful .boastful_pointer {
     position: absolute;
     z-index: 999;
