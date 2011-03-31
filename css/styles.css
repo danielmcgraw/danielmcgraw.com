@@ -167,6 +167,15 @@ a {
     margin-right: 13px
 }
 
+#boastful a {
+    color: #BBB;
+    text-decoration: none;
+}
+
+#boastful a:hover {
+    color: #F0B;
+}
+
 .boastful {
     display: inline;
 }
@@ -179,15 +188,6 @@ a {
     display: inline !important;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
-}
-
-.boastful a {
-    color: #BBB;
-    text-decoration: none;
-}
-
-.boastful a {
-    color: #F0B;
 }
 
 .boastful .boastful_pointer {
