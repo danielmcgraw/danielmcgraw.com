@@ -21,6 +21,11 @@
       formatted +=   '<div class="boastful_tweet" style="display: none">'
       formatted +=     '<div class="boastful_handle">@'+tweetback.author.url.split('/').pop()+'</div>'
       formatted +=     '<div class="boastful_content">'+tweetback.content+'</div>'
+      formatted +=     '<div class="boastful_action">'
+      formatted +=       '<a href="http://twitter.com/intent/favorite?tweet_id='+tweetback.permalink_url.split('/').pop()+'">Favorite</a>'
+      formatted +=       '<a href="http://twitter.com/intent/tweet?in_reply_to='+tweetback.permalink_url.split('/').pop()+'">Reply</a>'
+      formatted +=       '<a href="http://twitter.com/intent/retweet?tweet_id='+tweetback.permalink_url.split('/').pop()+'">Retweet</a>'
+      formatted +=     '</div>'
       formatted +=   '</div>'
       formatted += '</div>'
       return formatted
