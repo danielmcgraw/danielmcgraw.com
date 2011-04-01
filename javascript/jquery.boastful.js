@@ -14,7 +14,7 @@
 	function format_tweetback(tweetback) {
       formatted  = ''
       formatted += '<div class="boastful">'
-      formatted +=   '<a href="'+tweetback.author.url+'">'
+      formatted +=   '<a href="http://twitter.com/intent/user?screen_name='+tweetback.author.screen_name+'">'
       formatted +=     '<img src="'+tweetback.author.photo_url+'" />'
       formatted +=   '</a>'
       formatted +=   '<div class="boastful_pointer"></div>'
