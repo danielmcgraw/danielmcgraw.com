@@ -223,3 +223,9 @@ a {
     font-size: 13px;
     font-weight: bold;
 }
+
+.boastful .boastful_action img{
+    height: 50%;
+    width: 50%;
+    float: right;
+}
