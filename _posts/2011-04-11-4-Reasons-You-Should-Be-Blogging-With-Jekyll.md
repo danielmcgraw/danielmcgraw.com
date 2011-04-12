@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3 Reasons You Should Be Blogging With Jekyll
+title: 4 Reasons You Should Be Blogging With Jekyll
 ---
 
 1. ### Portability ###
@@ -15,4 +15,4 @@ Jekyll renders your site into static HTML pages. This site (static) loads much m
 4. ### Geek Cred ###
 Jekyll is just plain cool, fun and super hackable. I'm constantly being suprised with what people are doing with Jekyll ([3N](http://iancollins.me/)). 
 
-Start Hacking on it and see what you come up with.
+Start hacking on it and see what you come up with.
