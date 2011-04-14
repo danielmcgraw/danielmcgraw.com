@@ -5,7 +5,7 @@ title: 'The Ultimate Guide To Getting Started With Jekyll: Part 1'
 
 If you're interested in Jekyll and dont know where to start this is your guide. I will be walking you through everything you need from setting up an environment to deploying your page via gitpages. Today we will be setting up a working environment for local development.
 
-Lets start with some background. Jekyll is a simple static website generator used for blogging. It was created by the cofounder of [GitHub](https://github.com/), [Tom Preston-Werner](http://tom.preston-werner.com/)([mojombo](https://github.com/mojombo) on GitHub), as the engine for [GitHub Pages](http://pages.github.com/). Essentially Jekyll renders a static HTML site, suited for serving from any web server, from template files that are processed by Textile or Markdown and Liquid converters. So now that you know what Jekyll is, lets get a local development environment set up.
+Lets start with some background. Jekyll is a simple static website generator used for blogging. It was created by the cofounder of [GitHub](https://github.com/), [Tom Preston-Werner](http://tom.preston-werner.com/) ([mojombo](https://github.com/mojombo) on GitHub), as the engine for [GitHub Pages](http://pages.github.com/). Essentially Jekyll renders a static HTML site, suited for serving from any web server, from template files that are processed by Textile or Markdown and Liquid converters. So now that you know what Jekyll is, lets get a local development environment set up.
 
 I'm going to assume you have [Ruby](http://www.ruby-lang.org/en/) already installed, if not jump over to the [Ruby download page](http://www.ruby-lang.org/en/downloads/) and get it installed. Now all you need in to gem install Jekyll.
 {% highlight bash %}
