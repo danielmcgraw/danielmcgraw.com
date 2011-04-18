@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: The Ultimate Guide To Getting Started With Jekyll: Part 2
 ---
 
 Now we should have this file/folder structure:
