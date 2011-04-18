@@ -5,6 +5,7 @@ title: "The Ultimate Guide To Getting Started With Jekyll: Part 2"
 
 Now we should have this file/folder structure:
 
+<pre>
 .
 |-- .gitignore
 |-- README
@@ -15,6 +16,7 @@ Now we should have this file/folder structure:
 |-- _posts
 |   `-- 1985-10-26-Test-Post.md
 `-- index.html
+</pre>
 
 Lets take a look at what each of these do.
 
