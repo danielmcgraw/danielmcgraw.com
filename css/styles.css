@@ -1,231 +1,311 @@
-{
-    margin: 0;
-    padding: 0;
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+
+/* =============================================================================
+   HTML5 element display
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio[controls], canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ *    http://clagnut.com/blog/348/#c790
+ * 2. Force vertical scrollbar in non-IE
+ * 3. Remove Android and iOS tap highlight color to prevent entire container being highlighted
+ *    www.yuiblog.com/blog/2010/10/01/quick-tip-customizing-the-mobile-safari-tap-highlight-color/
+ * 4. Prevent iOS text size adjust on device orientation change, without disabling user zoom
+ *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+
+html { font-size: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+
+body, button, input, select, textarea { font-family: sans-serif; }
+
+/* 
+ * These selection declarations have to be separate
+ * No text-shadow: twitter.com/miketaylr/status/12228805301
+ * Also: hot pink!
+ */
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+a { color: #ff4105; }
+a:visited { color: #551a8b; }
+a:focus { outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active { outline: 0; }
+
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+dfn { font-style: italic; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+/* Redeclare monospace font family: en.wikipedia.org/wiki/User:Davidgothberg/Test59 */
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+
+/* Improve readability of pre-formatted text in all browsers */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+
+small { font-size: 85%; }
+
+/* Position subscript and superscript content without affecting line-height: gist.github.com/413930 */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; margin: 0; padding: 0; }
+
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * Improve image quality when scaled in IE7
+ * code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
+ */
+
+img { border: 0; -ms-interpolation-mode: bicubic; }
+
+/*
+ * Correct overflow displayed oddly in IE9 
+ */
+
+svg:not(:root) {
+    overflow: hidden;
 }
 
-body {
-    font-family: "Helvetica", "Arial", "Helvetica", sans-serif;
-}
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+
+figure { margin: 0; }
 
 
-header {
-    position: absolute;
-    left: -400px;
-    top: 350px;
-    -webkit-transform:rotate(90deg);
-    -moz-transform:rotate(90deg);
-    -o-transform: rotate(90deg);
-    z-index: -1;
-}
+/* =============================================================================
+   Forms
+   ========================================================================== */
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+
+/* 
+ * 1. Correct color not inheriting in IE6/7/8/9 
+ * 2. Correct alignment displayed oddly in IE6/7 
+ */
+
+legend { border: 0; *margin-left: -7px; padding: 0; }
+
+/* Indicate that 'label' will shift focus to the associated form element */
+label { cursor: pointer; }
+
+/*
+ * 1. Correct font-size not inheriting in all browsers
+ * 2. Remove margins in FF3/4 S5 Chrome
+ * 3. Define consistent vertical alignment display in all browsers
+ */
+
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+/*
+ * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
+ * 2. Correct inner spacing displayed oddly in IE6/7
+ */
+
+button, input { line-height: normal; *overflow: visible; }
+
+/*
+ * 1. Display hand cursor for clickable form elements
+ * 2. Allow styling of clickable form elements in iOS
+ */
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+
+/*
+ * Consistent box sizing and appearance
+ */
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+/* 
+ * Remove inner padding and border in FF3/4
+ * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ 
+ */
+
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/* Remove default vertical scrollbar in IE6/7/8/9 */
+textarea { overflow: auto; vertical-align: top; }
+
+/* Colors for form validity */
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
 
 
-header a {
-    color: #DEF;
-    font-size: 4em;
-}
+/* =============================================================================
+   Tables
+   ========================================================================== */
 
-a {
-    text-decoration: none;
-}
+table { border-collapse: collapse; border-spacing: 0; }
 
-.content {
-    position: absolute;
-    left: 115px;
-    margin-left: 5px;
-    width: 895px;
-    margin-bottom: 50px;
-}
 
-.related {
-    margin-top: 5px;
-}
+/* =============================================================================
+   Primary styles
+   Author: 
+   ========================================================================== */
 
-.related ul {
-    margin: 0;
-    padding: 0;
-}
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote { margin: 0; padding: 0; border: 0; }
 
-.related li {
-    font-size: 18px;
-    list-style: none;
-    padding: 5px 0px;
-    margin: 0;
-    color: #777;
-    border-bottom: 1px solid #eee;
-}
+body { font-family: Helvetica Neue, "Helvetica", Arial, Verdana, sans-serif; font-size: 14px; line-height: 24px; color: #363636; backround: #f9f9f9; }
 
-.related li span {
-    float: right;
-}
+a { color: #888; font-style: italic; }
+a:visited { color: #888; }
+a:hover { color: #f0b; }
 
-.related a {
-    color: #DDD;
-    text-decoration: none;
-}
+#container { width: 916px; margin: 0 auto; padding: 48px 22px 0 22px; overflow: hidden; }
 
-.related a:hover {
-    color: #F0B;
-    text-decoration: underline;
-}
+header { margin: 0 0 48px 0; }
+header img { margin-top: -40px; }
+header a { color: #666; font-style: normal; text-decoration: none; }
+header a:visited { color: #666; }
+header a:hover { color: #f0b; }
+header nav { float: right; text-align: right; }
+header nav ul { list-style: none; }
+header nav li { float: left; font-size: 18px; width: 136px; margin: 0 0 0 20px; color: #a2a2a2; }
 
-#post {
-    padding-bottom: 15px;
-    border-bottom: 1px solid #eee;
-}
+#content { float: left; width: 526px; margin: 0 98px 0 0; }
+#content article { margin: 0 0 67px 0; }
+#content article h2 {  font-size: 30px; margin: 0 0 29px 0; font-weight: normal; }
+#content article h2 a { color: #eee; font-style: normal; text-decoration: none; }
+#content article:nth-child(5n+1) h2 a { color: #0af; }
+#content article:nth-child(5n+1) h2 a:hover { text-shadow: #253e45 -1px 1px 0, #af0 -2px 2px 0, #af0 -3px 3px 0; }
+#content article:nth-child(5n+2) h2 a { color: #af0; }
+#content article:nth-child(5n+2) h2 a:hover { text-shadow: #253e45 -1px 1px 0, #fa0 -2px 2px 0, #fa0 -3px 3px 0; }
+#content article:nth-child(5n+3) h2 a { color: #fa0; }
+#content article:nth-child(5n+3) h2 a:hover { text-shadow: #253e45 -1px 1px 0, #f0a -2px 2px 0, #f0a -3px 3px 0; }
+#content article:nth-child(5n+4) h2 a { color: #f0a; }
+#content article:nth-child(5n+4) h2 a:hover { text-shadow: #253e45 -1px 1px 0, #a0f -2px 2px 0, #a0f -3px 3px 0; }
+#content article:nth-child(5n+5) h2 a { color: #a0f; }
+#content article:nth-child(5n+5) h2 a:hover { text-shadow: #253e45 -1px 1px 0, #0af -2px 2px 0, #0af -3px 3px 0; }
+#content p { margin: 0 0 24px 0; }
+#content .postinfo { list-style: none; overflow: hidden; }
+#content .postinfo li { float: left; width: 225px; margin: 0 20px 0 0; font-style: italic; color: #a2a2a2; }
 
-#post h1 a {
-    font-size: 1.5em;
-    color: #ABC;
-}
+#sidebar { width: 292px; float: left; padding: 4px 0 0 0; }
+#sidebar h3 { font-size: 18px; font-weight: normal; margin: 0 0 25px 0; }
+#sidebar ul { list-style: none; }
+#sidebar section { margin: 0 0 47px 0; }
+#sidebar #about a.more { display: block; text-align: right; }
+#sidebar #categories { width: 136px; float: left; margin: 0 20px 0 0; }
+#sidebar #social { width: 136px; float: left; }
+ 
+#sidebar #search #query { width: 230px; height: 36px; float: left; border: 1px solid #c7c7c7; padding: 0 45px 0 15px; margin: -8px 0 0 0; background: #e2e2e2; background: -moz-linear-gradient(top, #e2e2e2 0%, #ffffff 16%); background: -webkit-linear-gradient(top, #e2e2e2 0%, #ffffff 16%); font-size: 14px; font-style: italic; color: #a2a2a2;}
+/*
+background: color position size repeat origin clip attachment image;
+#sidebar #search #searchsubmit { width: 17px; height: 17px; float: right; margin: -27px 15px 0 0; background: url(/images/site/search-icon.png); text-indent: -9999px; }
+*/
 
-#post h3 {
-    font-size: 1.2em;
-    color: #CCC;
-}
+#footer-container { overflow: hidden; }
+footer { width: 916px; margin: 0 auto; padding: 10px 22px 50px 22px; }
+footer #credits { list-style: none; float: left; }
+footer #credits li { float: left; margin: 0 6px 0 0; }
+footer #credits li.beer a { width: 20px; height: 20px; }
+footer #back-top { float: right; font-size: 12px; }
 
-#post a {
-    color: #BBB;
-    text-decoration: none;
-}
+/* =============================================================================
+   Non-semantic helper classes
+   Please define your styles before this section.
+   ========================================================================== */
 
-#post a:hover {
-    color: #F0B;
-}
-    
-#post ul {
-    font-size: 14px;
-    margin: 20px 20px 20px 0;
-}
+/* For image replacement */
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir br { display: none; }
 
-#post li {
-    line-height: 1.4em;
-    margin-bottom: 1em;
-    color: #222;
-    list-style-type: square;
-}
+/* Hide for both screenreaders and browsers:
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden { display: none; visibility: hidden; }
 
-#post li code {
-    border: 1px solid #ccc;
-}
+/* Hide only visually, but have it available for screenreaders: by Jon Neal.
+  www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
-#post p {
-    font-size: 18px;
-    margin-bottom: 1.2em;
-    line-height: 1.7em;
-}
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
 
-#post img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 610px;
-    -webkit-border-radius: 8px;
-    -webkit-box-shadow: 0px 0px 10px #555;
-}
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
 
-#post .authoring {
-    padding-left: 3px;
-    font-size: 14px;
-    color: #777;
-}
+/* Contain floats: nicolasgallagher.com/micro-clearfix-hack/ */ 
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
 
-#post .authoring a {
-    color: #777;
-    text-decoration: none;
-    border-bottom: 1px solid #ccc;
-    padding: 0;
-}
 
-#post .authoring a:hover {
-    color: #555;
-    border-color: #555;
-}
 
-#post blockquote {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    font-size: 14px;
-    padding: 1em 3em;
-    margin: 2em 6em;
-    color: #444;
-}
 
-#post blockquote cite {
-    text-align: right;
-    color: #111;
-    font-style: normal;
-}
-
-#boastful {
-    margin: 20px 15px 7em 15px;
-    text-shadow: 1px 1px 0 #fff;
-}
-
-#boastful .twitter-share-button {
-    float: right;
-    padding-top: 3px;
-    margin-right: 13px
-}
-
-#boastful a {
-    color: #BBB;
-    text-decoration: none;
-}
-
-#boastful a:hover {
-    color: #F0B;
-}
-
-.boastful {
-    display: inline;
-}
-
-.boastful img {
-    margin: 1px 2px;
-    border: 0;
-    width: 32px;
-    height: 32px;
-    display: inline !important;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-}
-
-.boastful .boastful_pointer {
-    position: absolute;
-    z-index: 999;
-    left: -9999px;
-    opacity: .7;
-    display: none;
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #000;
-    border-top: 0;
-}
-
-.boastful .boastful_tweet {
-    position: absolute;
-    z-index: 999;
-    left: -9999px;
-    background-color: #222;
-    opacity: .8;
-    padding: 5px;
-    width: 250px;
-    font-size: 11px;
-    text-shadow: 1px 1px 0 #000;
-    color: #eee;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-}
-
-.boastful .boastful_handle {
-    font-size: 13px;
-    font-weight: bold;
-}
-
-.boastful .boastful_action img{
-    height: 16px;
-    width: 16px;
-    float: right;
+/* =============================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+ 
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* css-discuss.incutio.com/wiki/Printing_Tables */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
 }

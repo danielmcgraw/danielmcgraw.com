@@ -2,30 +2,77 @@
 
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="author" content="Daniel McGraw" /> 
     <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"> 
     <meta content="no-cache" http-equiv="Pragma"> 
     <meta content="0" http-equiv="Expires"> 
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} Is Fucking Rad!</title>
     <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen, projection" />
     <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="/javascript/jquery.boastful.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('#boastful').boastful();
-      });
-    </script>
+    <script src="/js/libs/jquery.min.js"></script>
+    <script src="/js/libs/jquery.bbq.min.js"></script>
+    <script src="/js/libs/jquery.boastful.js"></script>
+    <script src="/js/script.js"></script>
   </head>
   <body>
-    <header>
-      <h1><a href="/">Daniel McGraw</a></h1>
-    </header>
-    <section>
+    <div id="container">
+      <header>
+	<a href="/"><img src="/images/site/DMLogo.png" /></a>
+	<nav>
+	  <ul>
+	    <li><a href="/">Home</a></li>
+	    <li><a href="http://about.me/danielmcgraw">About</a></li>
+	    <li><a href="mailto:dan.j.mcgraw@gmail.com?Subject=Hi!">Contact</a></li>
+	    <li><a href="http://feeds.feedburner.com/danielmcgraw">Rss</a></li>
+	  </ul>
+	</nav>
+      </header>
+      <div id="content" role="main">
       {{ content }}
-    </section>
-    <script type="text/javascript">
+      </div>
+      <aside id="sidebar">
+	<section id="about">
+	  <h3>About me</h3>
+	  <p>I am a software engineer located in Boulder, Colorado, working for Alpine Access out of Denver. 
+	    When not working I can be found spending time&hellip;<a href="http://about.me/danielmcgraw" class="more">Find out more &raquo;</a></p>
+	</section>
+	<section id="categories">
+	  <h3>Projects</h3>
+	  <ul>
+	    <li><a href="https://github.com/danielmcgraw/Jekyll-Base">Jekyll Base</a></li>
+	    <li><a href="https://github.com/danielmcgraw/CakeDay">Reddit Cake Day</a></li>
+	  </ul>
+	</section>
+	<section id="social">
+	  <h3>Social</h3>
+	  <ul>
+	    <li><a href="https://twitter.com/danielmcgraw">Twitter</a></li>
+	    <li><a href="http://www.linkedin.com/pub/daniel-mcgraw/23/336/780">LinkedIn</a></li>
+	    <li><a href="https://plus.google.com/105040743954630379356/posts">GooglePlus</a></li>
+	  </ul>
+	</section>
+	<!--
+	STILL NEED TO FIND A SUITABLE STATIC SITE SEARCH OPTION
+	<section id="search">
+	  <h3>Search</h3>
+	  <form method="post" id="search_form">
+	    <fieldset>
+	      <input type="text" name="query" id="query" placeholder="I'm looking for&hellip;" />
+	    </fieldset>
+	  </form>
+	</section>-->
+      </aside>
+    </div>
+    <div id="footer-container">
+      <footer>
+	<ul id="credits">
+	  <li class="power">Powered by <a href="http://zombeer.com">Beer</a> and <a href="#">Sweet Jams</a></li>
+	</ul>
+	<p id="back-top"><a href="/">Back to top</a></p>
+      <footer>
+    </div>
+    <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-22440848-1']);
       _gaq.push(['_trackPageview']);
@@ -36,5 +83,6 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+    </div>
   </body>
 </html>

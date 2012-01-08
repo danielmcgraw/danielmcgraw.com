@@ -2,15 +2,14 @@
 layout: layout
 ---
 
-<div class="content">
-  <div id="post">
-    {% include post_header.html %}
-    {{ content }}
-  </div>
+<article>
+  {% include post_header.html %}
+  {{ content }}
+</article>
 
 
-  <div id="boastful">
-    <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="danielmcgraw">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <h3>Twitter Reactions</h3>
-  </div>
+<div id="boastful">
+  <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="danielmcgraw">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+  <h3>Twitter Reactions</h3>
 </div>
+
