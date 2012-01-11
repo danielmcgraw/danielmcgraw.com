@@ -3,7 +3,7 @@ layout: post
 title: 2012 New Years Resolutions
 ---
 
-In 2010 I resolve to:  
+###In 2012 I resolve to:###  
 * Present at a conference (Pycon/Djangocon?)  
 * Do a new project every month  
 * Learn iOS  
