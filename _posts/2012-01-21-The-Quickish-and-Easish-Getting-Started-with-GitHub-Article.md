@@ -28,8 +28,8 @@ Create a new Remote Repository from the master copy of someone else's Remote Rep
 Ask the owner of a Repository you have made changes to, to Pull the changes you made into the master copy of the code.  
 ####*Pull*
 Download the latest code changes from the Remote Repository to your Local Repository.  
-
-
+  
+  
 ###Typical Usage
 
 1. Create a new project and add it to Github (Create a Remote Repository).  
@@ -41,18 +41,18 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 7. Loop on steps 3-6  
 8. ?  
 9. Profit  
-
-
+  
+  
 ###Example  
 
-####The Setup - Creating your master copy and Remote Repository  
+####The Remote Setup - Creating your master copy and Remote Repository  
 1. Create a Github account if you don't already have one or Log in. This should take you to your Github dashboard.  
 2. In the *Your Repositories* section on the right hand side of the page click on *New Repository*.  
 3. For the project name lets use *Getting Started with GitHub*, for the description lets use *The Quickish and Easish “Getting Started w/ GitHub” Article found at http://danielmcgraw.com* and for the homepage lets use *THE POSTS URL*. Lastly go ahead and hit the 'Create repository' button.  
 4. On the following page you will see some instructions. We will be using the *Global setup* and *Next steps* portions. Go ahead and follow the steps in those sections and click on the *continue* link when you are done.  
 *CONGRATULATIONS* You've just created your Remote Repository (and your Local Repository, but we are going to delete it and rebuild it to learn about Cloning).  
-
-####Building Your Local Environment  
+  
+####The Local Setup - Building Your Local Environment  
 1. Lets create a blank slate to work from. Go ahead and delete the 'Getting-Started-with-GitHub' on your local machine.  
 2. Open up a terminal and move to a location you would like to create your Local Repository in.  
 3. It's time to clone your Remote Repository. This will require that you have set up you ssh key with Github. If you don't already have that set up, again, check out [Github's help docs](http://help.github.com/ssh-key-passphrases/).  
