@@ -9,25 +9,25 @@ I just finished reading [The quickest and easiest “Getting Started w/ GitHub�
 ###Terminology 
 
 ####*Git*
- - A free, open source distributed version control system. I assume you already have Git installed on your machine. If not check out [Github's help docs](http://help.github.com/mac-set-up-git/) and grab the newest version for your OS.  
+A free, open source distributed version control system. I assume you already have Git installed on your machine. If not check out [Github's help docs](http://help.github.com/mac-set-up-git/) and grab the newest version for your OS.  
 ####*Github*
- - A site for hosting and managing public or private projects tracked by Git.  
+A site for hosting and managing public or private projects tracked by Git.  
 ####*Remote Repository*
- – Where the master copy of your code is stored. *This is where Github comes in*.  
+Where the master copy of your code is stored. *This is where Github comes in*.  
 ####*Local Repository*
- - Your local copy of the code Cloned from the Remote Repository you will edit and then Push back to the Remote Repository.  
+Your local copy of the code Cloned from the Remote Repository you will edit and then Push back to the Remote Repository.  
 ####*Clone*
- – Copy a Repository to your machine to work on.  
+Copy a Repository to your machine to work on.  
 ####*Commit*
- – Confirm code changes to your Local Repository.  
+Confirm code changes to your Local Repository.  
 ####*Push*
- – Upload your committed code changes to the Remote Repository.  
+Upload your committed code changes to the Remote Repository.  
 ####*Fork*
- – Create a new Remote Repository from the master copy of someone else's Remote Repository.  
+Create a new Remote Repository from the master copy of someone else's Remote Repository.  
 ####*Pull Request*
- – Ask the owner of a Repository you have made changes to, to Pull the changes you made into the master copy of the code.  
+Ask the owner of a Repository you have made changes to, to Pull the changes you made into the master copy of the code.  
 ####*Pull*
- – Download the latest code changes from the Remote Repository to your Local Repository.  
+Download the latest code changes from the Remote Repository to your Local Repository.  
 
 
 ###Typical Usage
