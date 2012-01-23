@@ -8,16 +8,16 @@ I just finished reading [The quickest and easiest “Getting Started w/ GitHub�
 
 ###Terminology 
 
-*Git* - A free, open source distributed version control system. I assume you already have Git installed on your machine. If not check out [Github's help docs](http://help.github.com/mac-set-up-git/) and grab the newest version for your OS.  
-*Github* - A site for hosting and managing public or private projects tracked by Git.  
-*Remote Repository* – Where the master copy of your code is stored. *This is where Github comes in*.  
-*Local Repository* - Your local copy of the code Cloned from the Remote Repository you will edit and then Push back to the Remote Repository.  
-*Clone* – Copy a Repository to your machine to work on.  
-*Commit* – Confirm code changes to your Local Repository.  
-*Push* – Upload your committed code changes to the Remote Repository.  
-*Fork* – Create a new Remote Repository from the master copy of someone else's Remote Repository.  
-*Pull Request* – Ask the owner of a Repository you have made changes to, to Pull the changes you made into the master copy of the code.  
-*Pull* – Download the latest code changes from the Remote Repository to your Local Repository.  
+####*Git* - A free, open source distributed version control system. I assume you already have Git installed on your machine. If not check out [Github's help docs](http://help.github.com/mac-set-up-git/) and grab the newest version for your OS.  
+####*Github* - A site for hosting and managing public or private projects tracked by Git.  
+####*Remote Repository* – Where the master copy of your code is stored. *This is where Github comes in*.  
+####*Local Repository* - Your local copy of the code Cloned from the Remote Repository you will edit and then Push back to the Remote Repository.  
+####*Clone* – Copy a Repository to your machine to work on.  
+####*Commit* – Confirm code changes to your Local Repository.  
+####*Push* – Upload your committed code changes to the Remote Repository.  
+####*Fork* – Create a new Remote Repository from the master copy of someone else's Remote Repository.  
+####*Pull Request* – Ask the owner of a Repository you have made changes to, to Pull the changes you made into the master copy of the code.  
+####*Pull* – Download the latest code changes from the Remote Repository to your Local Repository.  
 
 
 ###Typical Usage
@@ -33,11 +33,20 @@ I just finished reading [The quickest and easiest “Getting Started w/ GitHub�
 9. Profit  
 
 
-###Example
+###Example  
 
+####The Setup - Creating your master copy and Remote Repository  
 1. Create a Github account if you don't already have one or Log in. This should take you to your Github dashboard.  
 2. In the *Your Repositories* section on the right hand side of the page click on *New Repository*.  
 3. For the project name lets use *Getting Started with GitHub*, for the description lets use *The Quickish and Easish “Getting Started w/ GitHub” Article found at http://danielmcgraw.com* and for the homepage lets use *THE POSTS URL*. Lastly go ahead and hit the 'Create repository' button.  
 4. On the following page you will see some instructions. We will be using the *Global setup* and *Next steps* portions. Go ahead and follow the steps in those sections and click on the *continue* link when you are done.  
 *CONGRATULATIONS* You've just created your Remote Repository (and your Local Repository, but we are going to delete it and rebuild it to learn about Cloning).  
-5. 
+
+####Building Your Local Environment  
+1. Lets create a blank slate to work from. Go ahead and delete the 'Getting-Started-with-GitHub' on your local machine.  
+2. Open up a terminal and move to a location you would like to create your Local Repository in.  
+3. It's time to clone your Remote Repository. This will require that you have set up you ssh key with Github. If you don't already have that set up, again, check out [Github's help docs](http://help.github.com/ssh-key-passphrases/).  
+{% highlight bash %}
+    git clone git@github.com:YOUR-GITHUB-USER-NAME/Getting-Started-with-GitHub.git
+{% endhighlight %}
+Once this command completes you should have a folder called 'Getting-Started-with-GitHub' that contains your Local Repository. 
