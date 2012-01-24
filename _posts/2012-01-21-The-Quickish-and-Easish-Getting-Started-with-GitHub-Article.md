@@ -85,7 +85,7 @@ Once this command completes you should have a folder called 'Getting-Started-wit
 	{% endhighlight %}
 <br />
 - Make edits to the Local Repository. This is as simple as opening up files in your favorite editor and adding to them. For instance open up the README file and add some lines to it, save the file and close it.  
-		*As a side note if you want to add files you just create them in or move them to the location you want them in your Local Repositories directory structure and tell git to start tracking them. Lets pretend we are making a website and we want to add a blank index.html file to work on later.*
+	*As a side note if you want to add files you just create them in or move them to the location you want them in your Local Repositories directory structure and tell git to start tracking them. Lets pretend we are making a website and we want to add a blank index.html file to work on later.*
 <br />
 		{% highlight sh %}
 	    	touch index.html
