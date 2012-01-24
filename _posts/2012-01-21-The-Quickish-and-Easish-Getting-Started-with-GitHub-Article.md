@@ -52,10 +52,10 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 <br />
 
 ####The Remote Setup - Creating your master copy and Remote Repository  
-1. Create a Github account if you don't already have one or Log in. This should take you to your Github dashboard.  
-2. In the *Your Repositories* section on the right hand side of the page click on *New Repository*.  
-3. For the project name lets use *Getting Started with GitHub*, for the description lets use *The Quickish and Easish “Getting Started w/ GitHub” Article found at http://danielmcgraw.com* and for the homepage lets use *THE POSTS URL*. Lastly go ahead and hit the 'Create repository' button.  
-4. On the following page you will see some instructions. We will be using the *Global setup* and *Next steps* portions. Go ahead and follow the steps in those sections and click on the *continue* link when you are done.
+- Create a Github account if you don't already have one or Log in. This should take you to your Github dashboard.  
+- In the *Your Repositories* section on the right hand side of the page click on *New Repository*.  
+- For the project name lets use *Getting Started with GitHub*, for the description lets use *The Quickish and Easish “Getting Started w/ GitHub” Article found at http://danielmcgraw.com* and for the homepage lets use *THE POSTS URL*. Lastly go ahead and hit the 'Create repository' button.  
+- On the following page you will see some instructions. We will be using the *Global setup* and *Next steps* portions. Go ahead and follow the steps in those sections and click on the *continue* link when you are done.
 
 <br />
 
@@ -64,20 +64,27 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 <br />
   
 ####The Local Setup - Building your Local Repository  
-1. Lets create a blank slate to work from. Go ahead and delete the 'Getting-Started-with-GitHub' on your local machine.  
-2. Open up a terminal and move to a location you would like to create your Local Repository in.  
-3. It's time to clone your Remote Repository. This will require that you have set up you ssh key with Github. If you don't already have that set up, again, check out [Github's help docs](http://help.github.com/ssh-key-passphrases/).  
-<br />
-{% highlight sh %}
-    git clone git@github.com:YOUR-GITHUB-USER-NAME/Getting-Started-with-GitHub.git
-{% endhighlight %}
-<br />
+- Lets create a blank slate to work from. Go ahead and delete the 'Getting-Started-with-GitHub' on your local machine.  
+- Open up a terminal and move to a location you would like to create your Local Repository in.  
+- It's time to clone your Remote Repository. This will require that you have set up you ssh key with Github. If you don't already have that set up, again, check out [Github's help docs](http://help.github.com/ssh-key-passphrases/).  
+	{% highlight sh %}
+    	git clone git@github.com:YOUR-GITHUB-USER-NAME/Getting-Started-with-GitHub.git
+	{% endhighlight %}
 Once this command completes you should have a folder called 'Getting-Started-with-GitHub' that contains your Local Repository. 
 
 <br />
 
 ####Getting Your Git On - Day to day usage using Pull, Commit, and Push
-1. Pull down any changes from the Remote Repository. {% highlight sh %}git pull{% endhighlight %}  
-2. Make your edits and commit them to the Local Repository. Notice we use the -a flag which commits *all* our changes. {% highlight sh %}git commit -a{% endhighlight %}  
-3. Push your commits to the Remote Repository. This may require you to pull again if someone has pushed changes to the Remote Repository since the last time you Pulled from the Remote Repository. This is to make sure you aren't making conflicting changes and to keep a consistent state so you don't do work someone else has already done. {% highlight sh %}git push{% endhighlight %}  
-4. Repeat steps 1 through 3  
+- Pull down any changes from the Remote Repository.
+	{% highlight sh %}
+    	git pull
+	{% endhighlight %}
+- Make your edits and commit them to the Local Repository. Notice we use the -a flag which commits *all* our changes.
+	{% highlight sh %}
+    	git commit -a
+	{% endhighlight %}
+- Push your commits to the Remote Repository. This may require you to pull again if someone has pushed changes to the Remote Repository since the last time you Pulled from the Remote Repository. This is to make sure you aren't making conflicting changes and to keep a consistent state so you don't do work someone else has already done.
+	{% highlight sh %}
+    	git push
+	{% endhighlight %}  
+- Repeat!
