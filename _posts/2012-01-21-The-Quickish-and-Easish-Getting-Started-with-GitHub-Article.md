@@ -56,6 +56,7 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 2. In the *Your Repositories* section on the right hand side of the page click on *New Repository*.  
 3. For the project name lets use *Getting Started with GitHub*, for the description lets use *The Quickish and Easish “Getting Started w/ GitHub” Article found at http://danielmcgraw.com* and for the homepage lets use *THE POSTS URL*. Lastly go ahead and hit the 'Create repository' button.  
 4. On the following page you will see some instructions. We will be using the *Global setup* and *Next steps* portions. Go ahead and follow the steps in those sections and click on the *continue* link when you are done.  
+<br />
 *CONGRATULATIONS* You've just created your Remote Repository (and your Local Repository, but we are going to delete it and rebuild it to learn about Cloning).  
 
 <br />
@@ -64,9 +65,11 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 1. Lets create a blank slate to work from. Go ahead and delete the 'Getting-Started-with-GitHub' on your local machine.  
 2. Open up a terminal and move to a location you would like to create your Local Repository in.  
 3. It's time to clone your Remote Repository. This will require that you have set up you ssh key with Github. If you don't already have that set up, again, check out [Github's help docs](http://help.github.com/ssh-key-passphrases/).  
+<br />
 {% highlight bash %}
     git clone git@github.com:YOUR-GITHUB-USER-NAME/Getting-Started-with-GitHub.git
 {% endhighlight %}
+<br />
 Once this command completes you should have a folder called 'Getting-Started-with-GitHub' that contains your Local Repository. 
 
 <br />
