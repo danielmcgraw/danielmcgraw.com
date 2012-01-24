@@ -67,24 +67,32 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 - Lets create a blank slate to work from. Go ahead and delete the 'Getting-Started-with-GitHub' on your local machine.  
 - Open up a terminal and move to a location you would like to create your Local Repository in.  
 - It's time to clone your Remote Repository. This will require that you have set up you ssh key with Github. If you don't already have that set up, again, check out [Github's help docs](http://help.github.com/ssh-key-passphrases/).  
+	<br />
 	{% highlight sh %}
     	git clone git@github.com:YOUR-GITHUB-USER-NAME/Getting-Started-with-GitHub.git
 	{% endhighlight %}
+	<br />
 Once this command completes you should have a folder called 'Getting-Started-with-GitHub' that contains your Local Repository. 
 
 <br />
 
 ####Getting Your Git On - Day to day usage using Pull, Commit, and Push
 - Pull down any changes from the Remote Repository.
+	<br />
 	{% highlight sh %}
     	git pull
 	{% endhighlight %}
+	<br />
 - Make your edits and commit them to the Local Repository. Notice we use the -a flag which commits *all* our changes.
+	<br />
 	{% highlight sh %}
     	git commit -a
 	{% endhighlight %}
+	<br />
 - Push your commits to the Remote Repository. This may require you to pull again if someone has pushed changes to the Remote Repository since the last time you Pulled from the Remote Repository. This is to make sure you aren't making conflicting changes and to keep a consistent state so you don't do work someone else has already done.
+	<br />
 	{% highlight sh %}
     	git push
 	{% endhighlight %}  
+	<br />
 - Repeat!
