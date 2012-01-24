@@ -82,16 +82,16 @@ Once this command completes you should have a folder called 'Getting-Started-wit
 {% highlight sh %}
     git pull
 {% endhighlight %}
-<br />
+<br />  
 2. Make your edits and commit them to the Local Repository. Notice we use the -a flag which commits *all* our changes.
 <br />
 {% highlight sh %}
     git commit -a
 {% endhighlight %}
-<br />
+<br />  
 3. Push your commits to the Remote Repository. This may require you to pull again if someone has pushed changes to the Remote Repository since the last time you Pulled from the Remote Repository. This is to make sure you aren't making conflicting changes and to keep a consistent state so you don't do work someone else has already done.
 <br />
 {% highlight sh %}
     git push
-{% endhighlight %}
+{% endhighlight %}  
 4. Repeat steps 1 through 3
