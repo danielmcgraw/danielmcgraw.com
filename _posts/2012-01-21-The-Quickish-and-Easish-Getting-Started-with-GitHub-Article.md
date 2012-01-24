@@ -68,9 +68,9 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 - Open up a terminal and move to a location you would like to create your Local Repository in.  
 - It's time to clone your Remote Repository. This will require that you have set up you ssh key with Github. If you don't already have that set up, again, check out [Github's help docs](http://help.github.com/ssh-key-passphrases/).  
 <br />
-	{% highlight sh %}
-    	git clone git@github.com:YOUR-GITHUB-USER-NAME/Getting-Started-with-GitHub.git
-	{% endhighlight %}
+{% highlight sh %}
+	git clone git@github.com:YOUR-GITHUB-USER-NAME/Getting-Started-with-GitHub.git
+{% endhighlight %}
 <br />
 Once this command completes you should have a folder called 'Getting-Started-with-GitHub' that contains your Local Repository. 
 
@@ -80,29 +80,29 @@ Once this command completes you should have a folder called 'Getting-Started-wit
 - Move into the folder containing your Local Repository.
 - Pull down any changes from the Remote Repository and merge them with your changes.
 <br />
-	{% highlight sh %}
-    	git pull
-	{% endhighlight %}
+{% highlight sh %}
+	git pull
+{% endhighlight %}
 <br />
 - Make edits to the Local Repository. This is as simple as opening up files in your favorite editor and adding to them. For instance open up the README file and add some lines to it, save the file and close it.  
 	*As a side note if you want to add files you just create them in or move them to the location you want them in your Local Repositories directory structure and tell git to start tracking them. Lets pretend we are making a website and we want to add a blank index.html file to work on later.*
 <br />
-	{% highlight sh %}
-		touch index.html
-		git add index.html
-	{% endhighlight %}
+{% highlight sh %}
+	touch index.html
+	git add index.html
+{% endhighlight %}
 <br />
 - We've made our edits so now its time to commit them to the Local Repository. Notice we use the -a flag which commits *all* our changes.
 <br />
-	{% highlight sh %}
-    	git commit -a
-	{% endhighlight %}
+{% highlight sh %}
+	git commit -a
+{% endhighlight %}
 <br />
 - Push your commits to the Remote Repository. This may require you to pull again if someone has pushed changes to the Remote Repository since the last time you Pulled from the Remote Repository. This is to make sure you aren't making conflicting changes and to keep a consistent state so you don't do work someone else has already done.
 <br />
-	{% highlight sh %}
-    	git push
-	{% endhighlight %}  
+{% highlight sh %}
+	git push
+{% endhighlight %}  
 <br />
 - Repeat the last 3 tasks (Edit, Pull, Push) to your hearts content. 
 
