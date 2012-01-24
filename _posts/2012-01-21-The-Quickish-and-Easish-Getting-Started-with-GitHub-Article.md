@@ -66,7 +66,7 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 2. Open up a terminal and move to a location you would like to create your Local Repository in.  
 3. It's time to clone your Remote Repository. This will require that you have set up you ssh key with Github. If you don't already have that set up, again, check out [Github's help docs](http://help.github.com/ssh-key-passphrases/).  
 <br />
-{% highlight console %}
+{% highlight sh %}
     git clone git@github.com:YOUR-GITHUB-USER-NAME/Getting-Started-with-GitHub.git
 {% endhighlight %}
 <br />
