@@ -77,13 +77,22 @@ Once this command completes you should have a folder called 'Getting-Started-wit
 <br />
 
 ####Getting Your Git On - Day to day usage using Pull, Commit, and Push
-- Pull down any changes from the Remote Repository.
+- Move into the folder containing your Local Repository.
+- Pull down any changes from the Remote Repository and merge them with your changes.
 <br />
 	{% highlight sh %}
     	git pull
 	{% endhighlight %}
 <br />
-- Make your edits and commit them to the Local Repository. Notice we use the -a flag which commits *all* our changes.
+- Make edits to the Local Repository. This is as simple as opening up files in your favorite editor and adding to them. For instance open up the README file and add some lines to it, save the file and close it.  
+	- As a side note if you want to add files you just create them in or move them to the location you want them in your Local Repositories directory structure and tell git to start tracking them. Lets pretend we are making a website and we want to add a blank index.html file to work on later.
+<br />
+		{% highlight sh %}
+	    	touch index.html  
+			git add index.html  
+		{% endhighlight %}
+<br />
+- We've made our edits so now its time to commit them to the Local Repository. Notice we use the -a flag which commits *all* our changes.
 <br />
 	{% highlight sh %}
     	git commit -a
@@ -95,4 +104,8 @@ Once this command completes you should have a folder called 'Getting-Started-wit
     	git push
 	{% endhighlight %}  
 <br />
-- Repeat!
+- Repeat the last 3 tasks (Edit, Pull, Push) to your hearts content. 
+
+<br />
+
+Thats all there really is to it to get up and running with git and Github.
