@@ -55,7 +55,19 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 1. Create a Github account if you don't already have one or Log in. This should take you to your Github dashboard.  
 2. In the *Your Repositories* section on the right hand side of the page click on *New Repository*.  
 3. For the project name lets use *Getting Started with GitHub*, for the description lets use *The Quickish and Easish “Getting Started w/ GitHub” Article found at http://danielmcgraw.com* and for the homepage lets use *THE POSTS URL*. Lastly go ahead and hit the 'Create repository' button.  
-4. On the following page you will see some instructions. We will be using the *Global setup* and *Next steps* portions. Go ahead and follow the steps in those sections and click on the *continue* link when you are done.  
+4. On the following page you will see some instructions. We will be using the *Global setup* and *Next steps* portions. Go ahead and follow the steps in those sections and click on the *continue* link when you are done.
+{% highlight sh %}
+	  git config --global user.name "Your Name"
+	  git config --global user.email you@domain.com
+	  mkdir Getting-Started-with-GitHub
+	  cd Getting-Started-with-GitHub
+	  git init
+	  touch README
+	  git add README
+	  git commit -m 'first commit'
+	  git remote add origin git@github.com:YOUR-GITHUB-USER-NAME/Getting-Started-with-GitHub.git
+	  git push -u origin master
+{% endhighlight %}
 <br />
 *CONGRATULATIONS* You've just created your Remote Repository (and your Local Repository, but we are going to delete it and rebuild it to learn about Cloning).  
 
