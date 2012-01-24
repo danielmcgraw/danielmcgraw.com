@@ -77,16 +77,7 @@ Once this command completes you should have a folder called 'Getting-Started-wit
 <br />
 
 ####Getting Your Git On - Day to day usage using Pull, Commit, and Push
-1. Pull down any changes from the Remote Repository.
-	{% highlight sh %}
-    	git pull
-	{% endhighlight %}
-2. Make your edits and commit them to the Local Repository. Notice we use the -a flag which commits *all* our changes.
-	{% highlight sh %}
-    	git commit -a
-	{% endhighlight %}
-3. Push your commits to the Remote Repository. This may require you to pull again if someone has pushed changes to the Remote Repository since the last time you Pulled from the Remote Repository. This is to make sure you aren't making conflicting changes and to keep a consistent state so you don't do work someone else has already done.
-	{% highlight sh %}
-    	git push
-	{% endhighlight %}  
-4. Repeat steps 1 through 3
+1. Pull down any changes from the Remote Repository. {% highlight sh %}git pull{% endhighlight %}  
+2. Make your edits and commit them to the Local Repository. Notice we use the -a flag which commits *all* our changes. {% highlight sh %}git commit -a{% endhighlight %}  
+3. Push your commits to the Remote Repository. This may require you to pull again if someone has pushed changes to the Remote Repository since the last time you Pulled from the Remote Repository. This is to make sure you aren't making conflicting changes and to keep a consistent state so you don't do work someone else has already done. {% highlight sh %}git push{% endhighlight %}  
+4. Repeat steps 1 through 3  
