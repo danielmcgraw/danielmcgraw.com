@@ -108,4 +108,4 @@ Once this command completes you should have a folder called 'Getting-Started-wit
 
 <br />
 
-Thats all there really is to it to get up and running with git and Github.
+Thats all there really is to it to get up and running with git and Github. I really suggest you build on this base knowledge and check out some of the awesome advanced uses for git and Github. I heard building a blog using Github and [Jekyll](/2011/04/14/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-1) was super rad and easy :P
