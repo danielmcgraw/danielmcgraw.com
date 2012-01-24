@@ -88,8 +88,8 @@ Once this command completes you should have a folder called 'Getting-Started-wit
 	*As a side note if you want to add files you just create them in or move them to the location you want them in your Local Repositories directory structure and tell git to start tracking them. Lets pretend we are making a website and we want to add a blank index.html file to work on later.*
 <br />
 {% highlight sh %}
-	touch index.html
-	git add index.html
+    touch index.html
+    git add index.html
 {% endhighlight %}
 <br />
 - We've made our edits so now its time to commit them to the Local Repository. Notice we use the -a flag which commits *all* our changes.
