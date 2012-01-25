@@ -54,7 +54,7 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 ####The Remote Setup - Creating your master copy and Remote Repository  
 - Create a Github account if you don't already have one or Login if you do. This should take you to your Github dashboard.  
 - On the right had side of your dashboard you will see a section titled *Your Repositories*. Click on the button next to that section title labled *New Repository*.  
-- For the project name lets use *Getting Started with GitHub*, for the description lets use *The Quickish and Easish “Getting Started w/ GitHub” Article found at danielmcgraw.com* and for the homepage lets use *danielmcgraw.com/2012/01/25/The-Quickish-and-Easish-Getting-Started-with-GitHub-Article/*. Lastly go ahead and hit the 'Create repository' button.  
+- For the project name lets use **Getting Started with GitHub**, for the description lets use **The Quickish and Easish “Getting Started w/ GitHub” Article found at http://danielmcgraw.com** and for the homepage lets use **http://danielmcgraw.com/2012/01/25/The-Quickish-and-Easish-Getting-Started-with-GitHub-Article/**. Lastly go ahead and hit the 'Create repository' button.  
 - On the following page you will see some instructions. We will be using the *Global setup* and *Next steps* sections. Go ahead and follow the steps in those sections and click on the *continue* link when you are done.
 
 <br />
