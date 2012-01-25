@@ -78,6 +78,8 @@ Once this command completes you should have a folder called 'Getting-Started-wit
 
 *RAD* Now we have our Local Repository set up. Time to get working.
 
+<br />
+
 ####Getting Your Git On - Day to day usage using Pull, Commit, and Push
 - Move into the folder containing your Local Repository.
 - Pull down any changes from the Remote Repository and merge them with your changes.
