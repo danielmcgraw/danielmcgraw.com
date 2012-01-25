@@ -38,7 +38,7 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 1. Create a new project and add it to Github (Create a Remote Repository).  
 2. Create a local copy on your local machine to work on (Clone the Remote Repository to create your Local Repository).  
 3. Work on the project, make code changes, add or delete files, etc.  
-4. Commit the changes they have made (Commit changes to your Local Repository).  
+4. Commit the changes you have made (Commit changes to your Local Repository).  
 5. Pull down any changes made to the master copy and merge with your work (Pull from the Remote Repository).  
 6. Push the changes to the master copy (Push the changes made in you Local Repository to the Remote Repository)  
 7. Loop on steps 3-6  
@@ -52,10 +52,10 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 <br />
 
 ####The Remote Setup - Creating your master copy and Remote Repository  
-- Create a Github account if you don't already have one or Log in. This should take you to your Github dashboard.  
-- In the *Your Repositories* section on the right hand side of the page click on *New Repository*.  
+- Create a Github account if you don't already have one or Login if you do. This should take you to your Github dashboard.  
+- On the right had side of your dashboard you will see a section titled *Your Repositories*. Click on the button next to that section title labled *New Repository*.  
 - For the project name lets use *Getting Started with GitHub*, for the description lets use *The Quickish and Easish “Getting Started w/ GitHub” Article found at http://danielmcgraw.com* and for the homepage lets use *THE POSTS URL*. Lastly go ahead and hit the 'Create repository' button.  
-- On the following page you will see some instructions. We will be using the *Global setup* and *Next steps* portions. Go ahead and follow the steps in those sections and click on the *continue* link when you are done.
+- On the following page you will see some instructions. We will be using the *Global setup* and *Next steps* sections. Go ahead and follow the steps in those sections and click on the *continue* link when you are done.
 
 <br />
 
@@ -75,6 +75,8 @@ Download the latest code changes from the Remote Repository to your Local Reposi
 Once this command completes you should have a folder called 'Getting-Started-with-GitHub' that contains your Local Repository. 
 
 <br />
+
+*RAD* Now we have our Local Repository set up. Time to get working.
 
 ####Getting Your Git On - Day to day usage using Pull, Commit, and Push
 - Move into the folder containing your Local Repository.
@@ -108,4 +110,4 @@ Once this command completes you should have a folder called 'Getting-Started-wit
 
 <br />
 
-Thats all there really is to it to get up and running with git and Github. I really suggest you build on this base knowledge and check out some of the awesome advanced uses for git and Github. I heard building a blog using Github and [Jekyll](/2011/04/14/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-1) was super rad and easy :P
+Thats all there really is to it to get up and running with git and Github. I really suggest you build on this base knowledge and check out some of the awesome advanced commands and options in git and Github. I've heard building a blog using Github and [Jekyll](/2011/04/14/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-1) was super rad and easy :P
