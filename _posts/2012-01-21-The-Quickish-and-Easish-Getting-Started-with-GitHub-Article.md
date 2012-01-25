@@ -94,7 +94,7 @@ Once this command completes you should have a folder called 'Getting-Started-wit
     git add index.html
 {% endhighlight %}
 <br />
-- We've made our edits so now its time to commit them to the Local Repository. Notice we use the -a flag which commits *all* our changes.
+- We've made our edits so now its time to commit them to the Local Repository. Notice we use the -a flag which commits *all* our changes to tracked files.
 <br />
 {% highlight sh %}
 	git commit -a
@@ -106,8 +106,8 @@ Once this command completes you should have a folder called 'Getting-Started-wit
 	git push
 {% endhighlight %}  
 <br />
-- Repeat the last 3 tasks (Edit, Pull, Push) to your hearts content. 
+- Repeat the last three tasks (Edit, Pull, Push) to your hearts content. 
 
 <br />
 
-Thats all there really is to it to get up and running with git and Github. I really suggest you build on this base knowledge and check out some of the awesome advanced commands and options in git and Github. I've heard building a blog using Github and [Jekyll](/2011/04/14/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-1) was super rad and easy :P
+Thats all there really is to it to get up and running with git and Github. I really suggest you build on this base knowledge and check out some of the awesome advanced commands and options in git and Github. I've heard building a blog using git, Github, and [Jekyll](/2011/04/14/The-Ultimate-Guide-To-Getting-Started-With-Jekyll-Part-1) was super rad and easy :P
