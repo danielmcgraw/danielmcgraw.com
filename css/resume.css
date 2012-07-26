@@ -207,44 +207,16 @@ body { font-family: Helvetica Neue, "Helvetica", Arial, Verdana, sans-serif; fon
 
 #container { width: 916px; margin: 0 auto; padding: 48px 22px 0 22px; overflow: hidden; }
 
-h1 {  font-size: 2em; margin: 0 0 29px 0; font-weight: normal; color: #0af; text-shadow: #253e45 -1px 1px 0, #af0 -2px 2px 0, #af0 -3px 3px 0; }
 #content { float: left; width: 526px; margin: 0 98px 0 0; }
-#content article { margin: 0 0 67px 0; }
-#content ul { margin: 0 0 0 0; list-style: none; position: relative; right: 150px; }
-
-
-#content article:nth-child(5n+2) h2 a { color: #af0; }
-#content article:nth-child(5n+2) h2 a:hover { text-shadow: #253e45 -1px 1px 0, #fa0 -2px 2px 0, #fa0 -3px 3px 0; }
-#content article:nth-child(5n+3) h2 a { color: #fa0; }
-#content article:nth-child(5n+3) h2 a:hover { text-shadow: #253e45 -1px 1px 0, #f0a -2px 2px 0, #f0a -3px 3px 0; }
-#content article:nth-child(5n+4) h2 a { color: #f0a; }
-#content article:nth-child(5n+4) h2 a:hover { text-shadow: #253e45 -1px 1px 0, #a0f -2px 2px 0, #a0f -3px 3px 0; }
-#content article:nth-child(5n+5) h2 a { color: #a0f; }
-#content article:nth-child(5n+5) h2 a:hover { text-shadow: #253e45 -1px 1px 0, #0af -2px 2px 0, #0af -3px 3px 0; }
+#content h1 {  font-size: normal; margin: 0 0 29px 0; font-weight: normal; color: #0af; text-shadow: #253e45 -1px 1px 0, #af0 -2px 2px 0, #af0 -3px 3px 0; }
+#content ul { margin: 0 0 0 0; list-style: none; position: relative; top: -25px; left: 50px; }
+#content h4 { margin: 0 0 25px 0; }
+#content h2:nth-child(5n+1) { color: #af0; text-shadow: #253e45 -1px 1px 0, #fa0 -2px 2px 0, #fa0 -3px 3px 0; }
+#content h2:nth-child(5n+2) { color: #0af; text-shadow: #253e45 -1px 1px 0, #af0 -2px 2px 0, #af0 -3px 3px 0; }
+#content h2:nth-child(5n+3) { color: #f0a; text-shadow: #253e45 -1px 1px 0, #a0f -2px 2px 0, #a0f -3px 3px 0; }
+#content h2:nth-child(5n+4) { color: #a0f; text-shadow: #253e45 -1px 1px 0, #0af -2px 2px 0, #0af -3px 3px 0; }
+#content h2:nth-child(5n+5) { color: #fa0; text-shadow: #253e45 -1px 1px 0, #f0a -2px 2px 0, #f0a -3px 3px 0; }
 #content p { margin: 0 0 24px 0; }
-#content .postinfo { list-style: none; overflow: hidden; }
-#content .postinfo li { float: left; width: 225px; margin: 0 20px 0 0; font-style: italic; color: #a2a2a2; }
-
-#sidebar { width: 292px; float: left; padding: 4px 0 0 0; }
-#sidebar h3 { font-size: 18px; font-weight: normal; margin: 0 0 25px 0; }
-#sidebar ul { list-style: none; }
-#sidebar section { margin: 0 0 47px 0; }
-#sidebar #about a.more { display: block; text-align: right; }
-#sidebar #categories { width: 136px; float: left; margin: 0 20px 0 0; }
-#sidebar #social { width: 136px; float: left; }
- 
-#sidebar #search #query { width: 230px; height: 36px; float: left; border: 1px solid #c7c7c7; padding: 0 45px 0 15px; margin: -8px 0 0 0; background: #e2e2e2; background: -moz-linear-gradient(top, #e2e2e2 0%, #ffffff 16%); background: -webkit-linear-gradient(top, #e2e2e2 0%, #ffffff 16%); font-size: 14px; font-style: italic; color: #a2a2a2;}
-/*
-background: color position size repeat origin clip attachment image;
-#sidebar #search #searchsubmit { width: 17px; height: 17px; float: right; margin: -27px 15px 0 0; background: url(/images/site/search-icon.png); text-indent: -9999px; }
-*/
-
-#footer-container { overflow: hidden; }
-footer { width: 916px; margin: 0 auto; padding: 10px 22px 50px 22px; }
-footer #credits { list-style: none; float: left; }
-footer #credits li { float: left; margin: 0 6px 0 0; }
-footer #credits li.beer a { width: 20px; height: 20px; }
-footer #back-top { float: right; font-size: 12px; }
 
 /* =============================================================================
    Non-semantic helper classes

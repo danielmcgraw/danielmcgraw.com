@@ -9,19 +9,16 @@ title: Daniel McGraw's Resume
  * <http://danielmcgraw.com>
  * 505-331-1814
   
-  
-## Skills
 
-**Programming Languages**
+## Languages
 
- > Proficient in: Python, Django, Pinax, HTML5, SQL (MySQL and PostgreSQL), Bash
-
- > Experience with: Java, Ruby, Scala, C, Objective-C, XML, VXML, PHP
+__Proficient in:__ Python, Django, Pinax, HTML5, SQL (MySQL and PostgreSQL), Bash  
+__Experience with:__ Java, Ruby, Scala, C, Objective-C, XML, VXML, PHP  
 
 ## Education
 
-Computer Science, B.S. [Dec.2009]
-University of New Mexico, Albuquerque, NM
+### Computer Science, B.S. [Dec.2009]
+#### University of New Mexico, Albuquerque, NM
 
  * Minor in Business Management
  * Member of Kappa Mu Epsilon (National Mathematics Honor Society)
