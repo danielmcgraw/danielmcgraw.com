@@ -209,7 +209,7 @@ body { font-family: Helvetica Neue, "Helvetica", Arial, Verdana, sans-serif; fon
 
 #content { float: left; width: 526px; margin: 0 98px 0 0; }
 #content h1 {  font-size: normal; margin: 0 0 29px 0; font-weight: normal; color: #0af; text-shadow: #253e45 -1px 1px 0, #af0 -2px 2px 0, #af0 -3px 3px 0; }
-#content ul { margin: 0 0 0 0; list-style: none; position: relative; top: -25px; left: 50px; }
+#content ul { margin: 0 0 0 0; list-style: none; position: relative; top: -20px; left: 40px; }
 #content h4 { margin: 0 0 25px 0; }
 #content h2:nth-child(5n+1) { color: #af0; text-shadow: #253e45 -1px 1px 0, #fa0 -2px 2px 0, #fa0 -3px 3px 0; }
 #content h2:nth-child(5n+2) { color: #0af; text-shadow: #253e45 -1px 1px 0, #af0 -2px 2px 0, #af0 -3px 3px 0; }

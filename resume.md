@@ -29,7 +29,7 @@ __Experience with:__ Java, Ruby, Scala, C, Objective-C, XML, VXML, PHP
 
 #### Software Engineer [AUG.2011 - Present]
 
- * As part of a small team create a new learning and recruiting product from scratch.
+ * As part of a small team create a new learning and recruiting product from scratch
  * Help develop and maintain the recruiting and admissions platforms
  * Collaborate with the development team to create stories and tasks and point them iteration by iteration
  * Write and execute quality assurance plans and verify acceptability criteria
