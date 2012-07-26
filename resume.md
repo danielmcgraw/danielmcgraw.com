@@ -8,7 +8,8 @@ title: Daniel McGraw's Resume
  * <dan.j.mcgraw@gmail.com>
  * <http://danielmcgraw.com>
  * 505-331-1814
-
+  
+  
 ## Skills
 
 **Programming Languages**
