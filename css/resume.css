@@ -205,26 +205,12 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 
 body { font-family: Helvetica Neue, "Helvetica", Arial, Verdana, sans-serif; font-size: 14px; line-height: 24px; color: #363636; backround: #f9f9f9; }
 
-a { color: #888; font-style: italic; }
-a:visited { color: #888; }
-a:hover { color: #f0b; }
-
 #container { width: 916px; margin: 0 auto; padding: 48px 22px 0 22px; overflow: hidden; }
 
-header { margin: 0 0 48px 0; }
-header img { margin-top: -40px; }
-header a { color: #666; font-style: normal; text-decoration: none; }
-header a:visited { color: #666; }
-header a:hover { color: #f0b; }
-header nav { float: right; text-align: right; }
-header nav ul { list-style: none; }
-header nav li { float: left; font-size: 18px; width: 136px; margin: 0 0 0 20px; color: #a2a2a2; }
-
+h1 {  font-size: 2em; margin: 0 0 29px 0; font-weight: normal; color: #0af; text-shadow: #253e45 -1px 1px 0, #af0 -2px 2px 0, #af0 -3px 3px 0; }
 #content { float: left; width: 526px; margin: 0 98px 0 0; }
 #content article { margin: 0 0 67px 0; }
-#content h1 {  font-size: 30px; margin: 0 0 29px 0; font-weight: normal; color: #0af; text-shadow: #253e45 -1px 1px 0, #af0 -2px 2px 0, #af0 -3px 3px 0; }
-#content ul { margin: 0 0 0 0; list-style: none; }
-#content li { margin: 0 0 0 0; }
+#content ul { margin: 0 0 0 0; list-style: none; position: relative; right: 150px; }
 
 
 #content article:nth-child(5n+2) h2 a { color: #af0; }
