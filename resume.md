@@ -21,17 +21,17 @@ __Experience with:__ Java, Javascript, Ruby, Scala, C, Objective-C, XML, VXML, P
 
 #### Software Engineer [AUG.2011 - Present]
 
- * As part of a small team, create a new learning and recruiting product using Pinax
- * Help develop and maintain the recruiting and admissions platforms
- * Collaborate with the development team to create iterations stories and tasks and their associated points
- * Write and execute quality assurance plans and verify acceptability criteria
+ * As part of a small team, created a new learning and recruiting product using Pinax
+ * Developed and maintained the recruiting and admissions platforms
+ * Collaborated with the development team to create iteration stories and tasks and their points
+ * Wrote and executed quality assurance plans and verify acceptability criteria
 
 ### Wellkeeper, Albuquerque, NM
 
 #### Senior Software Engineer [JAN.2011 - JUL.2011]
 
  * Directed and helped continuing development on the internally and externally facing sides of the website 
- * Directed the development team; act as a liaison between the technical and sales sides of the company
+ * Directed the development team; acted as a liaison between the technical and sales sides of the company
  * Interviewed, hired, trained, and coached interns and new employees for the development team
 
 #### Software Engineer [JAN.2010 - DEC.2010]
@@ -39,7 +39,7 @@ __Experience with:__ Java, Javascript, Ruby, Scala, C, Objective-C, XML, VXML, P
  * Partnered with others to update and maintain the internally and externally facing sides of the website
  * Implemented a port of all production voice systems from one IVR solution to another
  * Designed and developed a unification and consolidation of roughly 100,000,000 records in the production database
- * Produce and maintain production code for the PLC/RTU products
+ * Produced and maintained production code for the PLC/RTU products
 
 #### Software Engineer Intern [JUN.2009 - DEC.2009]
 
