@@ -15,14 +15,6 @@ title: Daniel McGraw's Resume
 __Proficient in:__ Python, Django, Pinax, HTML5, SQL (MySQL and PostgreSQL), Bash  
 __Experience with:__ Java, Ruby, Scala, C, Objective-C, XML, VXML, PHP  
 
-## Education
-
-### Computer Science, B.S. [Dec.2009]
-#### University of New Mexico, Albuquerque, NM
-
- * Minor in Business Management
- * Member of Kappa Mu Epsilon (National Mathematics Honor Society)
-
 ## Experience
 
 ### Alpine Access, Denver, CO
@@ -70,3 +62,11 @@ __Experience with:__ Java, Ruby, Scala, C, Objective-C, XML, VXML, PHP
  * Developed supplemental materials in support of the classroom syllabus 
  * Lectured the recitations and held office hours to facilitate students understanding of the class and supplemental materials
  * Graded projects and tests
+
+ ## Education
+
+### Computer Science, B.S. [Dec.2009]
+#### University of New Mexico, Albuquerque, NM
+
+ * Minor in Business Management
+ * Member of Kappa Mu Epsilon (National Mathematics Honor Society)
