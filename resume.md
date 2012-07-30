@@ -13,7 +13,7 @@ title: Daniel McGraw's Resume
 ## Languages
 
 __Proficient in:__ Python, Django, Pinax, HTML5, SQL (MySQL and PostgreSQL), Bash  
-__Experience with:__ Java, Ruby, Scala, C, Objective-C, XML, VXML, PHP  
+__Experience with:__ Java, Javascript, Ruby, Scala, C, Objective-C, XML, VXML, PHP  
 
 ## Experience
 
