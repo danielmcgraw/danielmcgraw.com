@@ -62,8 +62,8 @@ __Experience with:__ Java, Ruby, Scala, C, Objective-C, XML, VXML, PHP
  * Developed supplemental materials in support of the classroom syllabus 
  * Lectured the recitations and held office hours to facilitate students understanding of the class and supplemental materials
  * Graded projects and tests  
-   
- ## Education
+
+## Education
 
 ### Computer Science, B.S. [Dec.2009]
 #### University of New Mexico, Albuquerque, NM
