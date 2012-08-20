@@ -1,3 +1,8 @@
+----
+layout: resume
+title: Daniel McGraw's Resume       
+----
+
 # Daniel McGraw
 
  * <dan.j.mcgraw@gmail.com>
