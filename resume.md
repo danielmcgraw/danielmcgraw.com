@@ -1,8 +1,3 @@
----
-layout: resume
-title: Daniel McGraw's Resume       
----
-
 # Daniel McGraw
 
  * <dan.j.mcgraw@gmail.com>
@@ -17,14 +12,23 @@ __Experience with:__ Java, Javascript, Ruby, Scala, C, Objective-C, XML, VXML, P
 
 ## Experience
 
+### Sykes Enter
+
+#### Software Engineer \[MAR.2013 - Present\]
+
+ * Absorbed by Sykes as part of a buyout of Alpine Access
+ * As part of a small team help Pivot the direction of the admissions platform
+ * Modify existing web applications for use in brick and mortar locations
+
 ### Alpine Access, Denver, CO
 
-#### Software Engineer \[AUG.2011 - Present\]
+#### Software Engineer \[AUG.2011 - FEB.2013\]
 
  * As part of a small team, created a new learning and recruiting product using Pinax
  * Developed and maintained the recruiting and admissions platforms
  * Collaborated with the development team to create iteration stories and tasks and their points
  * Wrote and executed quality assurance plans and verify acceptability criteria
+ * Assembled the base toolchain used by all developers in our devision. 
 
 ### Wellkeeper, Albuquerque, NM
 
