@@ -7,14 +7,23 @@
 
 ## Languages
 
-__Proficient in:__ Python, Django, Pinax, HTML5, SQL (MySQL and PostgreSQL), Bash  
-__Experience with:__ Java, Javascript, Ruby, Scala, C, Objective-C, XML, VXML, PHP  
+__Proficient in:__ Backbone, Underscore, JQuery, Ruby, Rails, Python, Django, Pinax, HTML5, SQL (MySQL and PostgreSQL), Bash  
+__Experience with:__ Java, Javascript, Scala, C, Objective-C, XML, VXML, PHP  
 
 ## Experience
 
-### Sykes Enter
+### Trip30
 
-#### Software Engineer \[MAR.2013 - Present\]
+#### Senior Software Engineer \[JUN.2013 - Present\]
+
+  * Build out the toolchain, with the team, we use daily for development  
+  * Partnered with others to design and develop a product from the ground up  
+  * Developed a splash page for marketing and email collection
+  * Help deploy, monitor, maintain, and update development, review, and production code and machines
+
+### Sykes Enterprises
+
+#### Software Engineer \[MAR.2013 - JUN.2013\]
 
  * Absorbed by Sykes as part of a buyout of Alpine Access
  * As part of a small team help Pivot the direction of the admissions platform
@@ -28,7 +37,7 @@ __Experience with:__ Java, Javascript, Ruby, Scala, C, Objective-C, XML, VXML, P
  * Developed and maintained the recruiting and admissions platforms
  * Collaborated with the development team to create iteration stories and tasks and their points
  * Wrote and executed quality assurance plans and verify acceptability criteria
- * Assembled the base toolchain used by all developers in our devision. 
+ * Assembled the base toolchain used by all developers in our devision  
 
 ### Wellkeeper, Albuquerque, NM
 
