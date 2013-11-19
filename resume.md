@@ -1,7 +1,7 @@
-----
+---
 layout: resume
 title: Daniel McGraw's Resume       
-----
+---
 
 # Daniel McGraw
 
